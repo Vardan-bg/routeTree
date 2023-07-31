@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "route-tree": {
+      "description": "Generates a JSON tree of routes from routes-routing.module",
+      "factory": "./route-tree/index#routeTree"
+    }
+  }
+}
